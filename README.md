@@ -5,6 +5,10 @@ protected routes and public routes are used!!
 react js(crud.login) live on → https://crudd-login.vercel.app/Signin
 
 
+
+
+- anime website
+- with media quary
 -login/logout using dummy api 
 -crud features like add user/edit user/delete user 
 -student data coming from mock api 
