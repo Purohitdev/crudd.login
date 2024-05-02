@@ -7,11 +7,10 @@ react js(crud.login) live on → https://crudd-login.vercel.app/Signin
 
 
 
-- anime website
-- with media quary
--login/logout using dummy api 
--crud features like add user/edit user/delete user 
+- login and logout
+- cruds all featues
 -student data coming from mock api 
+
 
 
 
