@@ -343,3 +343,55 @@ form button:hover{
 }
 
 
+
+
+@media screen and (min-width:320px) and (max-width:600px) {
+
+    form{
+        width: 75% !important;
+    }
+
+    .fit{
+        width: fit-content;
+        height: auto;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .nav{
+        height: auto;
+    }
+
+    .navbar-expand .navbar-nav , .logo{
+        margin: 0px;
+    }
+
+    .navbar-brand{
+        font-size: 28px;
+    }
+
+    .nav-link{
+        font-size: 17px;
+    }
+
+    .org-butt{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+       padding: 6px 10px;
+    }
+
+    .butttttt{
+        display: flex;
+    }
+
+  
+    
+}
+
+
+
+
+
