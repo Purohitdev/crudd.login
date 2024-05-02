@@ -44,7 +44,7 @@ function Userlist() {
 
 
   return (
-    <div className="main-outer">
+    <div className="main-outer fit">
       <h1 className='up'>student list</h1>
       <Container>
         <table className="table">
@@ -74,11 +74,13 @@ function Userlist() {
                     <td>{user.project}</td>
                     <td>
                 
-                      <button onClick={() => deleteUser(user.id)}><span><MdOutlineDeleteSweep /></span> </button>
-                  
-                      <button className='end'>
-                        <Link to={"/Edituser/" + user.id}> <span><FiEdit3 /></span></Link>
-                      </button>                 
+                       <div className='butttttt'>
+                        <button onClick={() => deleteUser(user.id)}><span><MdOutlineDeleteSweep /></span> </button>
+
+                        <button className='end'>
+                          <Link to={"/Edituser/" + user.id}> <span><FiEdit3 /></span></Link>
+                        </button>     
+                       </div>               
                        </td>
                   </tr>
                 );
