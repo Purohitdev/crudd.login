@@ -1,8 +1,8 @@
 crud.login
 
-login/logout using dummy api 
-crud features like add user/edit user/delete user 
-student data coming from mock api 
+~login/logout using dummy api 
+~crud features like add user/edit user/delete user 
+~student data coming from mock api 
 
 
 
