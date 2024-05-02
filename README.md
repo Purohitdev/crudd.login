@@ -9,7 +9,7 @@ react js(crud.login) live on → https://crudd-login.vercel.app/Signin
 
 - login and logout
 - cruds all featues
--student data coming from mock api 
+- student data coming from mock api 
 
 
 
