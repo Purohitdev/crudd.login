@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+.nav {
+    height: 120px;
+    background-color: #1F2122 !important;
+    border-bottom: 1px solid #343434;
+    border-radius: 0px 0px 35px 35px;
+    width: 100%;
+
+}
+
+.nav img{
+    height: 35%;
+    width: 35%;
+}
+
+.outer {
+    background-color: #161818;
+    font-family: "Montserrat", sans-serif;
+    color: white !important;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+
+
+
+
+}
+
+.up{
+    width: 100%;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size:60px;
+}
+
+* {
+    /* color: white !important; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #FFBD4A !important;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 35px;
+
+}
+
+.nav-link{
+    font-size: 20px;
+
+}
+.card-add form{ 
+    /* height: 400px; */
+    width: 50%;
+    /* border: 1px solid rgba(255, 255, 255, 0.363); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    /* padding-left: 0px; */
+    /* background-color: rgba(72, 66, 66, 0.267); */
+
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;   */
+
+}
+
+.card-add{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    
+ 
+}
+
+.extra{
+    height: 150vh !important;
+}
+
+form button{
+    height: 30px;
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+
+form label{
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 30px;
+}
+
+.error{
+    color: #FFBD4A;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+
+}
+
+form input{
+    width:100% ;
+    height: 5vh;
+    border: none !important;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.457) !important;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+}
+.navbar-expand .navbar-nav{
+    margin-left: -40px;
+}
+.navbar-brand:hover {
+    color: #FFBD4A;
+}
+
+.org-butt {
+    border: 1px solid #FFBD4A;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.org-butt:hover {
+    background-color: #FFBD4A;
+    border: 1px solid #1F2122;
+    color: #343434 !important;
+    border: 1px solid;
+}
+
+.org-butt:hover .arroww {
+    color: black;
+}
+
+.table button a{
+    color: #ffbd4a98 !important;
+    text-decoration: none;
+}
+
+.min-extra{
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+  
+
+
+}
+
+.arrow{
+    margin-left:6px;
+}
+
+.min-extra h1{
+    color: transparent  ;
+    -webkit-text-stroke: 1px  #FFBD4A;
+    font-size: 100px;
+}
+
+.min-extra p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+
+.main-outer{
+    background-color: #161818;
+    height: auto;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+}
+
+.nav-link{
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #FFBD4A;
+
+}
+
+.main-lorder h1{
+    background-color: transparent;
+    color: transparent;
+    font-size: 100px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 450px;
+    -webkit-text-stroke: 1px white;
+
+}
+
+.end{
+    margin-left: 20px;
+}
+
+.table>:not(caption)>*>*{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.447);
+    border: none;
+
+ 
+
+}
+
+th{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.375) !important;
+    padding-bottom: 30px !important;
+    text-transform: uppercase;
+
+}
+
+.table>tbody{
+    vertical-align:middle;
+    padding-top: 30px !important;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+table{
+    margin-top: 60px;
+}
+
+.table button{
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 1px solid #ffbd4a98;
+    color: #ffbd4a98;
+    border-radius: 5px;
+}
+form button{
+    background-color: transparent;
+    border: 1px solid #ffbd4a98;
+    color: #ffbd4a98;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    transition: 1s all;
+
+
+}
+
+form button:hover{
+    background-color: #FFBD4A;
+    color: #161818;
+    transition: 1s all;
+}
+
+.sigin-main{
+    height: 100vh;
+    background-color: #161818;
+    padding-top: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.inner-login h1{
+    text-align: center;
+    /* ont-family: "Bebas Neue", sans-serif; */
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 60px;
+}
+
+.inner-login form{
+    width: 40%;
+}
+
+.inner-login{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flexxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div-pass{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.div-pass p{
+    text-align: right;
+    margin: 20px;
+    color: #FFBD4A;
+}
+
+
