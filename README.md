@@ -1,5 +1,8 @@
 crud.login
 
+
+protected routes and public routes are used!!
+
 -login/logout using dummy api 
 -crud features like add user/edit user/delete user 
 -student data coming from mock api 
