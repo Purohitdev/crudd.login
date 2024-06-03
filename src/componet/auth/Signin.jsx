@@ -17,8 +17,8 @@ function Signin() {
         <div className="inner-login">
         <h1> LOGIN </h1>
     <div className="div-pass">
-    <p>id:kminchelle</p>
-        <p>pass:0lelplR</p>
+    <p>id:emilys</p>
+        <p>pass:emilyspass</p>
     </div>
         <Formik
        initialValues={{ password: '', username: '' }}
@@ -42,7 +42,7 @@ function Signin() {
           };
             console.log(userdata);
             axios
-            .post("https://dummyjson.com/auth/login", userdata)
+            .post("https://dummyjson.com/auth/logi", userdata)
             .then(res=>{
               console.log(res);
               localStorage.setItem("token", res.data.token)
