@@ -42,7 +42,7 @@ function Signin() {
           };
             console.log(userdata);
             axios
-            .post("https://dummyjson.com/auth/logi", userdata)
+            .post("https://dummyjson.com/auth/login", userdata)
             .then(res=>{
               console.log(res);
               localStorage.setItem("token", res.data.token)
